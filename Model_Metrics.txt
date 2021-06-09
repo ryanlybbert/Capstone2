@@ -1,0 +1,29 @@
+Model Chosen: GradientBoostingClassifier
+Hyper Parameters: n_estimators=171, learning_rate=0.27708, max_depth=1, max_features=0.754715, random_state=1020
+X Columns: 
+	'score', 'PS', 'XBOX', 'subreddit_AskReddit',
+       'subreddit_IAmA', 'subreddit_Marijuana', 'subreddit_PS3',
+       'subreddit_WTF', 'subreddit_business', 'subreddit_entertainment',
+       'subreddit_funny', 'subreddit_gadgets', 'subreddit_gaming',
+       'subreddit_geek', 'subreddit_linux', 'subreddit_pics',
+       'subreddit_politics', 'subreddit_programming', 'subreddit_reddit.com',
+       'subreddit_science', 'subreddit_technology', 'subreddit_worldnews',
+       'subreddit_xbox360', 'subreddit_other', 'body_score', '360', 'budget',
+       '60', 'live', 'stat', '6', 'http', 'iv', 'station', 'let', 'gi',
+       'playstation', 'use', '01', 'one', 'scheme', 'st', 'child', 'spear',
+       'ps', 'forget', 'spite', 'plays', 'spa', 'advice', 'perform',
+       'hardcore', 'ag', 'piece', 'dead', 'mo', '800', 'restriction',
+       'similar', 'freedom', 'na', 'ever', 'g', 'last', 'ill', 'tin', 'go',
+       'play', 'five', 'excellent', 'customer', 'normal', 'cm', 'ye', 'fk',
+       'nk', 'ting', 'euro', 'factor', 'like', '233', 'happen', 'save',
+       'remind', 'thing', 'concern', 'difference', 'equal', 'ry', 'police',
+       'op', 'ap', 'photo', 'ct', 'im', 'ai', '2006', '4', 'jo'
+
+y Columns: 'bert_labels'
+
+Resulting Confusion Matrix:
+[[1287  463  605  347  443]
+ [  55   55   60   27    9]
+ [  33   26   45   26   14]
+ [   1    2    4    5    5]
+ [  42    5   27   20   47]]
