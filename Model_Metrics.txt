@@ -1,5 +1,6 @@
 Model Chosen: GradientBoostingClassifier
-Hyper Parameters: n_estimators=171, learning_rate=0.27708, max_depth=1, max_features=0.754715, random_state=1020
+Hyper Parameters: n_estimators=221, learning_rate=0.27708, max_depth=1, max_features=0.754715, random_state=1020
+accuracy = 0.4111689022721051
 X Columns: 
 	'score', 'PS', 'XBOX', 'subreddit_AskReddit',
        'subreddit_IAmA', 'subreddit_Marijuana', 'subreddit_PS3',
@@ -22,8 +23,8 @@ X Columns:
 y Columns: 'bert_labels'
 
 Resulting Confusion Matrix:
-[[1287  463  605  347  443]
- [  55   55   60   27    9]
- [  33   26   45   26   14]
- [   1    2    4    5    5]
- [  42    5   27   20   47]]
+[[1355  435  608  332  473]
+ [  35   54   38   18    2]
+ [  43   39   40   32   20]
+ [   2    3    2    1    1]
+ [  29   14   17   22   38]]
